@@ -1,0 +1,50 @@
+	/*<Estilos del Cuerpo del sitio web*/
+.lo {
+	display: inline-block;
+	margin: 0.8em;
+	padding: 0;
+	width: 48%;
+	height: 90%;
+	float: left;
+}
+
+#formu {
+	width: 40%;
+	text-align: center
+}
+
+#formu h2 {
+	width: 100%;
+	font-size: 2em;
+	background-color: #007bff;
+	color: white;
+	text-align: center;
+}
+
+#bienv img {
+	width: 65%;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#crea {
+	color: #007bff;
+}
+
+.lo p {
+	text-align: center;
+}
+
+footer {
+	clear: both;
+}
+
+/*Responsive de la plataforma*/
+
+@media (max-width: 480px){
+	.lo{
+		width: 90%;
+		height: auto;
+	}	
+}

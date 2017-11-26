@@ -80,19 +80,15 @@ footer a {
   font-size: 2em;
 }
 
-@media (max-width: 575px){
+/*@media (max-width: 750px){
   #txt{
-    display: block;
+    display: inline;
     text-align: center;
-  }
-  
-  #social{
-    display: block;
   }
 
   #c {
-    display: block;
+    display: inline;
     text-align: center;
   }
 }
-
+*/

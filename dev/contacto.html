@@ -6,9 +6,12 @@
         <title>Template</title>
         <link href="https://file.myfontastic.com/HpqLDifXuY9zP5fdZFZpDf/icons.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="../icon/style.css">
-        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="icon/style.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="css/style1.css">
+        <link rel="stylesheet" href="css/style2.css">
+        <link rel="stylesheet" href="css/estiloform.css">
     </head>
     <body>
 
@@ -21,7 +24,7 @@
                  <ul class="navbar-nav text-right">
                      <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a>
                      </li>
-                     <li class="nav-item"><a class="nav-link" href="#acercade">Acerca de Nosotros</a>
+                     <li class="nav-item"><a class="nav-link" href="#acerca">Acerca de Nosotros</a>
                      </li>
                      <li class="nav-item"><a class="nav-link" href="#contactenos">Contáctenos</a>
                      </li>
@@ -31,27 +34,54 @@
              </div>
          </nav>
 
-        <!-- Parte Central -->
-
+        <section>
+            
         <div id="body">
             
-            <!-- Cuerpo de la Página -->
-
+            <div class="container">
+            <div class="left text-left" content="left"><br><b>Contáctenos</b><p id="parrafo">Para cualquier consulta o sugerencia nos puede escribir y con gusto le responderemos</p><br></div>
+            <div class="right text-right" ><p><form action="">
+                Nombre:<input type="text" name="Nombre" placeholder="Nombre"><br>
+                Apellido:<input type="text" name="Apellido" placeholder="Apellido"><br>
+                Correo Electronico:<input type="text" name="email" placeholder="Correo"><br>
+                Numero de telefono:<input type="text" name="phone" placeholder="Numero Telefonico"><br>
+                Asunto:<textarea rows="4" cols="50" placeholder="Ingrese aqui el texto..."></textarea> <br><input type="submit"value="Enviar">
+            </form></p></div>
+            </div>
+            
+             
+            
+            
+            
+            
+            <!-- Cuerpo de la Página 
+            <table>
+            <td>h</td>
+            <td>h</td>
+            <div><b>Contáctenos</b><p id="parrafo">Para cualquier consulta o sugerencia nos puede escribir y con gusto le responderemos</p>
+               <form action="">
+                Nombre:<input type="text" name="Nombre" value="Nombre"><br>
+                Apellido:<input type="text" name="Apellido" value="Apellido"><br>
+                Correo Electronico:<input type="text" name="email" value="Correo"><br>
+                Numero de telefono:<input type="text" name="phone" value="Numero Telefonico"><br>
+                Asunto:<textarea rows="4" cols="50"></textarea> <br>
+                Escriba su comentario aqui<button name="enviar" value="Enviar" type="submit">
+            </form>  
+            
+            </div>
+        </table>
+-->
         
-        </div>
-        
-
-        <!-- Pie de Pagina -->
-
+        </section>
         <footer class="footer bg-primary">
                 <div class="social">
                     <p id="c">Curiosity 2017</p>
 
                     <div align="center" id="redes">
                         <a href="#" class="icon" data-icon="a" title="Google Plus"></a>
-                        <a href="#" class="icon" data-icon="b" title="Facebook"></a>
+                        <a href="https://www.facebook.com/curiosityhackathon" class="icon" data-icon="b" title="Facebook"></a>
                         <a href="#" class="icon" data-icon="c" title="Twitter"></a>
-                        <a href="#" class="icon" data-icon="d" title="Instagram"></a>
+                        <a href="https://instagram.com/curiosityhackathon" class="icon" data-icon="d" title="Instagram"></a>
                     </div>
 
                     <p  id="txt">&copy; Todos los Derechos Reservados</p>

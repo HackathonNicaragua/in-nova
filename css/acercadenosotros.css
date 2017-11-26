@@ -1,0 +1,28 @@
+/*<Estilos del Cuerpo del sitio web*/
+.lo {
+	display: inline-block;
+	margin: 0.8em;
+	padding: 10%;
+	width: 48%;
+	height: 70%;
+	float: left;
+}
+
+.lo p {
+	text-align: center;
+}
+
+footer {
+	clear: both;
+}
+
+/*Responsive de la plataforma*/
+
+@media (max-width: 480px){
+	.lo{
+		display: block;
+		padding: 0%
+		width: 90%;
+		height: auto;
+	}	
+}

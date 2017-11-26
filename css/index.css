@@ -1,0 +1,52 @@
+
+/*<Estilos del Cuerpo del sitio web*/
+.borde {
+	display: inline-block;
+	margin: 0.8em;
+	padding: 0;
+	width: 30%;
+	height: 370px;
+	float: left;
+}
+
+.borde h2 {
+	width: 100%;
+	font-size: 2em;
+	background-color: #007bff;
+	color: white;
+	text-align: center;
+}
+
+.borde img {
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+
+#tam {
+	height: 60%;
+	width: auto;
+}
+
+.borde p {
+	text-align: center;
+}
+
+footer {
+	clear: both;
+}
+
+#image {
+	height: 60%;
+	width: auto;
+}
+
+
+/*Responsive de la plataforma*/
+
+@media (max-width: 480px){
+	.borde{
+		width: 90%;
+		height: auto;
+	}	
+}

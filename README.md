@@ -1,0 +1,1 @@
+la conexion a la base de datos la hicimos mediante php y a un servidor externo que es a 000webhost.com

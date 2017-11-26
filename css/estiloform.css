@@ -1,0 +1,13 @@
+#container{
+    margin: auto;
+}
+#left{
+    float: left;
+}
+#right{
+    float: right;
+}
+img.pequena{
+    height: 30px;
+    width: 30px;
+}
